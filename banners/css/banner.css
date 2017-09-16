@@ -1,0 +1,16 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{ margin:0;padding:0;}
+ul,ol,li{list-style:none;}
+img{display:block;border:0;}
+
+/*banner*/
+.banner{width: 1130px;height: 300px;margin:10px auto;}
+.banenr_con{width: 1130px;height: 300px;overflow: hidden; position: relative;}
+.banner_list{width:9040px;height: 300px;overflow: hidden;}
+.banner_list li{float:left;}
+.btn_left,.btn_right{position: absolute; top: 40%; color: #fff; font-size: 60px!important; opacity:0.6; cursor: pointer;}
+.btn_left{left: 0;}
+.btn_right{right: 0;}
+.cicle_list{position: absolute; bottom: 10px;left: 40%;}
+.cicle_list span{display: inline-block; width: 20px;height: 20px; border-radius: 50%; background:#000;}
+.cicle_list .active{background:#d00;}
